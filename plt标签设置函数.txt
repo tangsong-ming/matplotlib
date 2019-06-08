@@ -1,0 +1,8 @@
+plt.xscale()
+plt.yscale()  设置y轴缩放
+plt.legend()当前图放置图注
+plt.xlabel(s) 设置x轴标签名字
+plt.xticks([],[]) 原来的换成现在的  标签
+plt.suptitle() 添加中心标题
+plt.annotate()  baidu  ba 
+

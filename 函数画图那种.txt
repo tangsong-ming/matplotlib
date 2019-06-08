@@ -1,0 +1,26 @@
+#plt.figure(figsize=(8,4))
+#plt.subplot(2,2,4)二行二列第四个位置
+#plt.axes([0.1,0.1,0.7,0.3])
+#plt.imread() 从图像文件中读取数组
+'''
+plt.legend() 图注
+plt.plot(x,y,label,color,width) x,y数组绘制直线曲线
+plt.boxplot(data,notch,position) 绘制一个箱型图
+plt.bar(left,height,width,bottom)
+plt.barh(bottom,width,height,left)横向条形图
+plt.polar(theta,r)极坐标系
+plt.pie(data,explode)绘制饼图
+plt.psd(x,NFFT=256,pad_to,Fs)绘制功率谱密度图
+plt.specgram(x,NFFT=256,pad_to,F)谱图
+plt.cohere(x,y,NFFT=256,Fs)绘制x，y相关性函数
+plt.scatter()散点图 x，y是长度相同的序列
+plt.step(x,y,where)步阶图
+plt.hist(x,bins,normed)直方图
+plt.contour(X,Y,Z,N)绘制等值线
+plt.vlines()垂直线
+plt.stem(x,y,linefmt,markerfmt,basefmt)曲线每个点到水平轴线的垂线
+plt.plot_date()绘制数据日期
+plt.plotfile()绘制数据后写入文件
+'''
+
+plt.thetagrids(angles,labels,fmt,frac)设置极坐标网格theta的位置
